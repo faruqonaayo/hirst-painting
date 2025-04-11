@@ -21,6 +21,7 @@ color_list = [(202, 164, 110), (240, 245, 241), (236, 239, 243), (149, 75, 50), 
 tim = Turtle()
 tim.penup()
 tim.speed("fastest")
+tim.hideturtle()
 
 def random_color():
     rgb_value = (random.choice(color_list))
